@@ -8,7 +8,7 @@ for (age = 1; age < 100; age++) {
     else if (age <= 80) {
         document.getElementById("monParagraphe").innerHTML += "le Capitaine a " + age + "ans, il est vieux" + "<br><br>";
     }
-    else if (age >= 80) {
+    else {
         document.getElementById("monParagraphe").innerHTML += "le Capitaine a " + age + "ans, il est sûrement mort" + "<br><br>";
     }
 }
